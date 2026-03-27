@@ -5,18 +5,65 @@
 # If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 41 , forty two for 42 etc.).
 If n>49 print Greater than 49.
 ## Input Format
+EX 38 C program to print the lowercase English word corresponding to the number.
+DATE:
+## AIM:
+To write a C program to print the lowercase English word corresponding to the number.
 
-The first line contains a single integer, .
+## Algorithm:
+1.Start the program and declare an integer variable to store input.
 
-## Constraints
+2.Read the integer input from the user.
 
-## Output Format
+3.Use a switch or if-else ladder to match numbers from 41 to 49 with their word form.
 
-If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 4 , forty two for 42 etc.).
-If n>49 print Greater than 49.
-## Sample Input
+4.If the number is greater than 49, print "Greater than 49".
 
-41
-## Sample Output
+5.End the program.
 
-forty one
+Program:
+/*
+C program to find the smallest among three numbers using Structure.
+Developed by: SRINIVASAN V
+RegisterNumber:  212222043008
+*/
+```
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    if(n == 41)
+        printf("forty one\n");
+    else if(n == 42)
+        printf("forty two\n");
+    else if(n == 43)
+        printf("forty three\n");
+    else if(n == 44)
+        printf("forty four\n");
+    else if(n == 45)
+        printf("forty five\n");
+    else if(n == 46)
+        printf("forty six\n");
+    else if(n == 47)
+        printf("forty seven\n");
+    else if(n == 48)
+        printf("forty eight\n");
+    else if(n == 49)
+        printf("forty nine\n");
+    else if(n > 49)
+        printf("Greater than 49\n");
+
+    return 0;
+}
+```
+
+## OUTPUT:
+<img width="421" height="240" alt="image" src="https://github.com/user-attachments/assets/73d23354-5133-4358-bb3d-eabebe93f994" />
+
+## Result:
+Thus the program was executed and the output was verified successfully.
+
+
